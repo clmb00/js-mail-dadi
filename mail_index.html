@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Check Mail</title>
+</head>
+<body class="bg-teal-700 flex justify-center gap-y-2 h-screen flex-col">
+
+  <div class="container mx-auto px-4 py-6 bg-white opacity-50 rounded-xl text-center font-bold">
+    <form>
+
+      <input type="email" id="email" class="my-4 mx-auto text-lg text-white bg-teal-700 rounded-xl leading-10 px-3 w-1/3 text-center" placeholder="example@mail.com">
+      <button type="submit" class="my-5 text-teal-700 w-32 py-2 border-2 border-current rounded-xl outline-current active:bg-teal-700 active:text-white mx-4">Check Email</button>
+      <button type="reset" class="my-5 text-teal-700 w-32 py-2 border-2 border-current rounded-xl outline-current active:bg-teal-700 active:text-white">Reset</button>    
+
+    </form>
+  </div>
+
+  <div class="container mx-auto px-4 py-6 bg-white opacity-50 rounded-xl text-center font-bold">      
+      <p class="text-lime-700">
+        Your email is correct! You have access to the next page!
+      </p>
+  </div>
+
+  <script src="./js/mail_script.js"></script>  
+</body>
+</html>
